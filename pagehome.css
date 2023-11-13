@@ -1,13 +1,11 @@
-html * {
-  font-family: Alegreya;
-}
-
 .topnav {
   background-color: #333;
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 980px; /* Full width */
+  float: left;
+  font-family: Bale Mono;
 
 }
 
@@ -19,6 +17,7 @@ html * {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Bale Mono;
 }
 
 /* Change the color of links on hover */
@@ -31,14 +30,18 @@ html * {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+  font-family: Bale Mono;
 }
-
 
 body {
     background-color: white;
-    font-family: "Calibri Light";
+    font-family: "Bahnschrift Light";
     text-align: justify;
 
+}
+
+#hometag {
+	font-family: "Noto Sans"	
 }
 
 a{
@@ -58,7 +61,7 @@ a{
     background-color: #66CCFF;
     color: white;
     text-align: center;
-
+    font-family: "Bale Mono";
 }
 
 #content {
