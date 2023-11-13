@@ -28,7 +28,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: chocolate;
   color: white;
   font-family: Bale Mono;
 }
@@ -47,6 +47,10 @@ body {
 a{
     text-decoration: none;
     color: chocolate;
+}
+
+a:hover{
+     color: black;
 }
 
 #container {
@@ -92,5 +96,43 @@ a{
     text-align: right;
 }
 
-#hometag
+#username{
+	color: #8c042d;
+}
 
+.blog{
+    background-color: #fec8c7;
+}
+
+.readmore{
+    text-align:right;
+    padding: 10px 10px;
+}
+
+.readmore a:hover {
+  background-color: #ddd;
+  color: black;
+  padding: 2px 2px;
+}
+
+.posttitle {
+    padding: 10px 10px;
+}
+
+#date{
+    font-family: Noto Sans;
+}
+
+#back{
+	font-family: Noto Sans;
+}
+#back a:hover {
+  background-color: #fff;
+  color: gray;
+  padding: 5px 5px;
+}
+
+.dateblog{
+    font-family: Bahnschrift;
+    padding: 1px 10px;
+}
